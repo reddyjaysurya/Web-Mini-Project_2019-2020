@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+<head>
+  <title>Technical Events</title>
+  <link rel="stylesheet" type="text/css" href="tryeve.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Varela" rel="stylesheet">
+
+
+
+<body style="background-image:linear-gradient(rgba(0, 0, 0, 0.67),rgba(0, 0, 0, 0.67)),url(img/E2.jpg);">
+
+<script>
+  AOS.init();
+</script>
+
+<div class="info" style="text-align: left;font-size: 1.5em; background-color: rgba(189, 197, 255, 0.16)">
+    <h1>Technical Events</h1>
+</div>
+
+<div class="portion1 info">
+  <div>
+  <h1>Codefest</h1>
+
+  <div class="button">
+
+    <button class="collapsible">Details</button>
+    <div class="content">
+
+    <div class="button2">
+    <p><b>Detials : </b></p>
+    <a>1st Prize : Rs 1000</a>
+    <a>2nd Prize : Rs 500</a>
+    </div>
+
+
+  <p>
+    <b>Rules :</b><br>
+    1. Online coding competition for individual participants<br>
+    2. Platform to code will be provided<br>
+  </p>
+
+  <div class="button1">
+      <p><b>Organisers :</b></p>
+    <a href="#portion6">Jagdish</a>
+    <a href="tel:xxxxxxxx">xxxxxxxx</a>
+  </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="portion1 info" >
+  <div>
+  <h1>Bugster</h1>
+
+  <div class="button">
+    <button class="collapsible">Details</button>
+    <div class="content">
+
+    <div class="button2">
+    <p><b>Detials : </b></p>
+    <a>1st Prize : Rs 1000</a>
+    <a>2nd Prize : Rs 500</a>
+  </div>
+
+
+
+  <p>
+    <b>Rules :</b><br>
+    1. Event requires knowledge in programming languages <br>
+2. Event duration - 2 hours <br>
+
+<div class="button1">
+      <p><b>Organisers :</b></p>
+    <a href="#portion6">Yashas</a>
+    <a href="tel:xxxxxxxx">xxxxxxxx</a>
+  </div>
+
+</div>
+  </div>
+</div>
+</div>
+
+
+
+<footer class="ft">
+
+
+  <p style="font-size: 0.75em; padding-top: 6%;">&copy;
+  Web Mini Project 2019-2020
+</footer>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

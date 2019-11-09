@@ -1,0 +1,85 @@
+  <!DOCTYPE html>
+<html>
+<link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+<head>
+  <title>Theatre Events</title>
+  <link rel="stylesheet" type="text/css" href="tryeve.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+<body style="background-image:linear-gradient(rgba(0, 0, 0, 0.67),rgba(0, 0, 0, 0.67)),url(img/E10.jpg);">
+
+
+<div class="info" style="text-align: left;font-size: 1.5em; background-color: rgba(189, 197, 255, 0.16)">
+    <h1>Theatre Events</h1>
+</div>
+
+<div class="portion1 info">
+  <div>
+  <h1>Mime</h1>
+
+  <div class="button">
+
+    <button class="collapsible">Details</button>
+    <div class="content">
+
+    <div class="button2">
+    <p><b>Details : </b></p>
+    <a>1st Prize : Rs 4000</a>
+    <a>2nd Prize : Rs 2000</a>
+  </div>
+
+  <p>
+    <b>Rules :</b><br>
+   1. Number of members in a team - 6 to 8 <br>
+2. Time limit: 7+2 minutes <br>
+  </p>
+
+    <div class="button1">
+    <p><b>Organisers :</b></p>
+    <a href="#portion6">ABC</a>
+    <a href="tel:xxxxxxxx">xxxxxxxx</a>
+  </div>
+
+    <div class="button1">
+    <a href="#portion6">Aman Mittal</a>
+    <a href="tel:xxxxxxxx">xxxxxxxx</a>
+  </div>
+
+    </div>
+    </div>
+  </div>
+</div>
+
+<footer class="ft">
+
+
+  <p style="font-size: 0.75em; padding-top: 6%;">&copy;
+  Web Mini project 2019-2020
+</footer>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="img/logo.png" type="image/png" sizes="16x16">
+<head>
+  <title>Events List</title>
+  <link rel="stylesheet" type="text/css" href="tryeve.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+ <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Varela" rel="stylesheet">
+
+<body style="background-image:linear-gradient(rgba(0, 0, 0, 0.67),rgba(0, 0, 0, 0.67)),url(img/gg.jpg);">
+
+
+<script>
+  AOS.init();
+</script>
+
+<div class="info" style="text-align: left;font-size: 1.5em; background-color: rgba(189, 197, 255, 0.16)">
+    <h1>Events List</h1>
+</div>
+
+<div class="portion1 info">
+  <div>
+    <h1><a href="Techeve.html"  style="text-decoration: none; color: white;">Technical Events</a></h1>
+  </div>
+</div>
+
+<div class="portion1 info">
+  <div>
+    <h1><a href="Culeve.html"  style="text-decoration: none; color: white;">Cultural Events</a></h1>
+  </div>
+</div>
+
+<div class="portion1 info">
+  <div>
+    <h1><a href="Theateve.html"  style="text-decoration: none; color: white;">Theatre Events</a></h1>
+  </div>
+</div>
+
+
+
+<footer class="ft">
+  <p style="font-size: 0.75em; padding-top: 6%;">&copy;
+  Web Mini project 2019-2020
+</footer>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
